@@ -1,0 +1,130 @@
+body {
+    background-image: url('https://www.speednik.com/files/2018/10/hennessey-jeep-trackhawk-named-quickest-suv-in-the-world-2018-10-15_21-01-04_583253.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 0;
+    align-items: center;
+    background-color: #8d8d8dad;
+}
+
+.logo {
+    margin-left: 5vh;
+}
+
+nav ul  {
+    display: flex;
+    gap: 10vh;
+}
+
+nav ul li a {
+    color: #000000;
+    font-size: 21px;
+}
+
+nav ul li a:hover {
+    color: #3e3e3e;
+    font-size: 21px;
+}
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 2000px;
+    padding: 0 80px;
+}
+
+.header_text {
+    text-align: center;
+    margin-right: 70vh;
+}
+
+.geo button {
+    background-color: transparent;
+    border: none;
+    transform: scale(0.8);
+}
+
+.logo:hover {
+    transform: scale(0.9);
+}
+
+.sidebar1 {
+    margin-left: 5vh;
+    font-size: 3vh;
+    background-color: #8d8d8dad;
+    width: 25vh;
+    height: 60vh;
+    border: none;
+    border-radius: 3vh;
+    display: flex;
+    margin-top: 5vh;
+}
+
+.sidebar_text {
+    margin-left: 1vh;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+.sidebar2 {
+    margin-right: 5vh;
+    font-size: 3vh;
+    background-color: #8d8d8dad;
+    width: 25vh;
+    height: 60vh;
+    border: none;
+    border-radius: 3vh;
+    display: flex;
+    margin-top: 5vh;
+}
+
+.sidebar_text2 {
+    margin-top: 3vh;
+    margin-left: 2vh;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar_text a {
+    color: rgb(66, 70, 65);
+}
+
+.sidebar_text2 a {
+    color: rgb(66, 70, 65);
+}  
+
+.info_box {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20vh;
+    margin-top: 10vh;
+    box-shadow: 0 0 10px rgb(66, 70, 65);
+    width: 80%;
+    font-size: 5vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
